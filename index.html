@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon" href="sk-circle-initial-logo-best-for-beauty-and-fashion-in-bold-feminine-concept-free-vector.png" >
+    <title>SK_FORM</title>
+</head>
+<body>
+    <form>
+        
+    <!--personal details-->
+    <fieldset>
+        <legend style="font-size:xx-large;"><b>Register Form</b></legend>
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+            <input placeholder="First name" name=" first name" id="first name" > 
+            <input placeholder="Last name" name="last name" id="second name"><br><br>
+            <input placeholder="Father name" name="father name" id="father name"><br><br>
+            <input placeholder="Mother name" name="mother name" id="mother name"><br><br>
+            <input placeholder="Age" name="age" id="age"><br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio"  id="male"  name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="others" value="others" name="gender">
+            <label for="others">Transgender</label><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" value="dateofbirth" name="dob">
+        </fieldset><br>
+
+        <!--Qualification-->
+        <fieldset>
+            <legend><b>Qualification</b></legend>
+            <label for="degree">Degree:</label>
+            <input type="radio" name="degree" id="degree" value="UG">
+            <label for="UG">UG</label> 
+            <input type="radio" name="degree" id="degree" value="PG">  
+            <label for="PG">PG</label>
+            <input type="radio" name="degree" id="dip" value="dip">
+            <label for="dip">DIPLOMA</label>
+        </fieldset><br>
+
+        <!--contact information-->
+        <fieldset>
+            <legend><b>Contact Information</b></legend>
+            <input placeholder="Email_id" type="email"  name="email" required><br><br>
+            <input placeholder="Phone" type="phone" name="phone"><br>
+            <br>
+            <textarea row="5" placeholder="Address" name="address"></textarea><br>
+            <br>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option>--Select--</option>
+                <option>India</option>
+                <option>America</option>
+                <option>South America</option>
+                <option>North America</option>
+                <option>Algeria</option>
+                <option>Andorra</option>
+                <option>Bahamas</option>
+                <option>Austria</option>
+                <option>Berlin</option>
+                <option>Nather land</option>
+                <option>Tokiyo</option>
+            </select>
+        </fieldset><br>
+
+       <!--addtional information-->
+        <fieldset>
+            <legend><b>Addtional Information</b></legend>
+            <label for="hobby">Hobby:</label>
+            <input type="checkbox" name="hobby" id="sports" value="sports"> 
+            <label>Sports</label> 
+            <input type="checkbox" name="hobby" id="music" values="music">
+            <label>Music</label>
+            <input type="checkbox" name="hobby" id="reading book" value="reading book">
+            <label>Reading book</label>
+            <br><br>
+            <label>Comment:</label><br>
+            <textarea rows="5"></textarea>
+        </fieldset>
+        <h5>---------------------------------------------------------------------------------------------------------------------------------------------------------------BY SK----------------------------------------------------------------------------------------------------------------------------------------------------------------------</h5>
+        <input type="submit">
+        <input type="reset">
+    </fieldset>
+    
+</form>
+    
+</body>
+</html>
